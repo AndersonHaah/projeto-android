@@ -1,0 +1,149 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'Android';
+    src: url(d10/fontes/idroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: #84E0AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to top, #1A5C38, #3AD07E);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.308);
+}
+
+header > h1 {
+    font-family: 'Fjalla One', Courier, monospace;
+    font-size: 2em;
+    font-weight: 300;
+    text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.562);
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.308);
+}
+.menu {
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    gap: 10px 10px 10px 20px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+.menu a:hover {
+    background-color: white;
+    color: #1A5C38;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+article {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    margin: 0px 80px 0px 80px;
+    padding: 30px;    
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.308);
+}
+
+article > p {
+    text-indent: 30px;
+}
+
+article > picture img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+article > iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+article > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+article > h2,h3 {
+    font-family: Android, 'Fjalla One', Courier, monospace;
+    color: #1b5734;
+    
+}
+article > h3 { 
+    background-image: linear-gradient(to right, #4a851944, #4a881100);
+}
+
+.verde {
+    color: rgb(5, 114, 5);
+    font-weight: bold;
+}
+
+.links-externos a {
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links-externos a::after {
+    content: url(d10/imagens/link_icon_1525911.webp);
+}
+
+aside {
+    border-radius: 10px;
+    background-color: rgba(5, 201, 5, 0.233);
+    
+}
+aside > h4 {
+    background-color: #2e9e60;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p {
+    text-indent: 30px;
+    padding: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
+}
+
+#ultimo {
+    padding: 0px 10px 20px 10px;
+}
+ aside > ul {
+    column-count: 2;
+    column-gap: 20px;
+    text-decoration: underline;
+}
+footer {
+    background-color: #1A5C38;
+    width: 100%;
+    height: 30px;
+}
+footer > p {
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-style: italic;
+}
+.negrito {
+    font-weight: bold;
+}
